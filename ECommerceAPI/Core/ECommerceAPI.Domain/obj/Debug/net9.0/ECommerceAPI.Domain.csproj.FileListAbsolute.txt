@@ -1,0 +1,12 @@
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\bin\Debug\net9.0\ECommerceAPI.Domain.deps.json
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\bin\Debug\net9.0\ECommerceAPI.Domain.dll
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\bin\Debug\net9.0\ECommerceAPI.Domain.pdb
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.sourcelink.json
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.dll
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\refint\ECommerceAPI.Domain.dll
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ECommerceAPI.Domain.pdb
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Core\ECommerceAPI.Domain\obj\Debug\net9.0\ref\ECommerceAPI.Domain.dll
