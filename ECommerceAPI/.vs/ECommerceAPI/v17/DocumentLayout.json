@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE507EA3-E6AA-4921-B6EF-10BE352F84B2}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\hasan\\onedrive\\masa\u00FCst\u00FC\\ecommerceapp\\ecommerceapi\\presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE507EA3-E6AA-4921-B6EF-10BE352F84B2}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\hasan\\onedrive\\masa\u00FCst\u00FC\\ecommerceapp\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Program.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Configuration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Configuration.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Configuration.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Configuration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:13:31.537Z",
+              "WhenOpened": "2026-04-01T15:56:36.989Z",
               "EditorCaption": ""
             }
           ]

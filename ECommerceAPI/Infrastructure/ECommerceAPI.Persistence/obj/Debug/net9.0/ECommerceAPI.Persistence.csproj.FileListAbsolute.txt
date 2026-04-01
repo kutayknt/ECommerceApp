@@ -16,3 +16,5 @@ C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECom
 C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\obj\Debug\net9.0\refint\ECommerceAPI.Persistence.dll
 C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\obj\Debug\net9.0\ECommerceAPI.Persistence.pdb
 C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\obj\Debug\net9.0\ref\ECommerceAPI.Persistence.dll
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\bin\Debug\net9.0\ECommerceAPI.Persistence.runtimeconfig.json
+C:\Users\hasan\OneDrive\Masaüstü\ECommerceApp\ECommerceAPI\Infrastructure\ECommerceAPI.Persistence\obj\Debug\net9.0\ECommerceAPI.Persistence.genruntimeconfig.cache
