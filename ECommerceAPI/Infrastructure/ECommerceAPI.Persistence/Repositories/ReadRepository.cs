@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ECommerceAPI.Persistence.Repositories
 {
-    //Burada 
+    
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {
         private readonly ECommerceAPIDbContext _context;

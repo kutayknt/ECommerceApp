@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Products": {
+    "/api/Product": {
       "get": {
         "tags": [
-          "Products"
+          "Product"
         ],
         "responses": {
           "200": {
@@ -21,7 +21,7 @@
   "components": { },
   "tags": [
     {
-      "name": "Products"
+      "name": "Product"
     }
   ]
 }
