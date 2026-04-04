@@ -3,8 +3,9 @@
     "",
     "\\ECommerceAPI",
     "\\ECommerceAPI\\Presentation",
-    "\\ECommerceAPI\\Presentation\\ECommerceAPI.API"
+    "\\ECommerceAPI\\Presentation\\ECommerceAPI.API",
+    "\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers"
   ],
-  "SelectedNode": "\\ECommerceAPI\\ECommerceAPI.sln",
+  "SelectedNode": "\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductController.cs",
   "PreviewInSolutionExplorer": false
 }

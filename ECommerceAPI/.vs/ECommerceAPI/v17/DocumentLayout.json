@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE507EA3-E6AA-4921-B6EF-10BE352F84B2}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\hasan\\onedrive\\masa\u00FCst\u00FC\\ecommerceapp\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE507EA3-E6AA-4921-B6EF-10BE352F84B2}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\hasan\\onedrive\\masa\u00FCst\u00FC\\ecommerceapp\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\hasan\\onedrive\\masa\u00FCst\u00FC\\ecommerceapp\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\repositories\\customer\\customerreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CD72926-EAA8-4F2A-8D05-3A3E6AFB8C55}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\repositories\\customer\\customerreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +24,9 @@
               "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:29:05.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Repositories\\Customer\\CustomerReadRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Repositories\\Customer\\CustomerReadRepository.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Repositories\\Customer\\CustomerReadRepository.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Repositories\\Customer\\CustomerReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:26:08.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\Masa\u00FCst\u00FC\\ECommerceApp\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAAA0AAACAmZmZmZkVwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:24:32.288Z",
+              "WhenOpened": "2026-04-04T16:30:41.693Z",
               "EditorCaption": ""
             }
           ]
