@@ -11,27 +11,51 @@ namespace ECommerceAPI.API.Controllers
     {
         private readonly IProductReadRepository _productReadRepository;
         private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly IOrderReadRepository _orderReadRepository;
+        private readonly ICustomerWriteRepository _customerWriteRepository;
 
-        public ProductController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
+        public ProductController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, ICustomerWriteRepository customerWriteRepository, IOrderWriteRepository orderWriteRepository, IOrderReadRepository orderReadRepository)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
+            _customerWriteRepository = customerWriteRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _orderReadRepository = orderReadRepository;
         }
 
         [HttpGet]
         public async Task Get()
         {
-            // await _productWriteRepository.AddRangeAsync(new()
-            // {
-            //     new(){Id = Guid.NewGuid(),CreatedDate = DateTime.UtcNow,Name = "A Product", Price = 100,Stock = 200},
-            //     new(){Id = Guid.NewGuid(),CreatedDate = DateTime.UtcNow,Name = "B Product", Price = 200,Stock = 300},
-            //     new(){Id = Guid.NewGuid(),CreatedDate = DateTime.UtcNow,Name = "C Product", Price = 300,Stock = 400}
-            // });
+            //Product p = await _productReadRepository.GetByIdAsync("7bdc2df4-8cc5-47af-a80e-b1fc8e9e94a9",tracking : false);
+            //p.Name = "KutayNoTracking Product";
             //await _productWriteRepository.SaveAsync();
-            Product p = await _productReadRepository.GetByIdAsync("7bdc2df4-8cc5-47af-a80e-b1fc8e9e94a9",tracking : false);
-            p.Name = "KutayNoTracking Product";
-            await _productWriteRepository.SaveAsync();
 
+            //var customerId = Guid.NewGuid();
+
+            //await _customerWriteRepository.AddAsync(new()
+            //{
+            //    Id = customerId,
+            //    Name = "Kutay Kunt"
+            //});
+
+            //await _orderWriteRepository.AddAsync(new Order()
+            //{
+            //    Adress = "Antalya,Kepez",
+            //    Description = "Sossuz",
+            //    CustomerId = customerId,
+            //});
+            //await _orderWriteRepository.AddAsync(new Order()
+            //{
+            //    Adress = "Antalya,Muratpaşa",
+            //    Description = "Soslu",
+            //    CustomerId = customerId,
+            //});
+
+            var order = await _orderReadRepository.GetByIdAsync("019d67a3-85a7-7a40-91e4-3fa0de940525");
+            order.Adress = "Antalya,Lara";
+
+            await _orderWriteRepository.SaveAsync();
         }
     }
 }
