@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { AdminModule } from './admin/admin-module';
 import { UiModule } from './ui/ui-module';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { UiModule } from './ui/ui-module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule, UiModule
+    AdminModule, UiModule,
+    ToastrModule.forRoot()
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
