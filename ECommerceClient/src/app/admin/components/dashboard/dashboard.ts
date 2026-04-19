@@ -3,6 +3,8 @@ import { AlertifyOptions, AlertifyService, MessageType, Position } from '../../.
 import { toUSVString } from 'util';
 import { delay } from 'rxjs';
 import { posix } from 'path';
+import { NgxSpinnerService } from 'ngx-spinner';
+import { Base, SpinnerType } from '../../../base/base';
 
 @Component({
   selector: 'app-dashboard',
@@ -12,9 +14,13 @@ import { posix } from 'path';
 })
 // export class Dashboard{}
 
-export class Dashboard implements OnInit{
-  constructor(private alertify : AlertifyService){}
-  ngOnInit(): void { }
+export class Dashboard extends Base implements OnInit{
+  constructor(private alertify: AlertifyService, spinner: NgxSpinnerService) {
+    super(spinner)
+  }
+  ngOnInit(): void { 
+    this.showSpinner(SpinnerType.BallAtom);
+  }
   m() {
     this.alertify.message("Custom Alertify", {
       delay: 3,
@@ -26,4 +32,6 @@ export class Dashboard implements OnInit{
   d() {
     this.alertify.dismiss();
   }
+
+    
 }

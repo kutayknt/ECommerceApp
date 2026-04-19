@@ -6,21 +6,20 @@ import { App } from './app';
 import { AdminModule } from './admin/admin-module';
 import { UiModule } from './ui/ui-module';
 import { ToastrModule } from 'ngx-toastr';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { Base } from './base/base';
 
 @NgModule({
-  declarations: [
-    App
-  ],
+  declarations: [App],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule, UiModule,
-    ToastrModule.forRoot()
+    AdminModule,
+    UiModule,
+    ToastrModule.forRoot(),
+    NgxSpinnerModule,
   ],
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-    provideClientHydration(withEventReplay()),
-  ],
-  bootstrap: [App]
+  providers: [provideBrowserGlobalErrorListeners(), provideClientHydration(withEventReplay())],
+  bootstrap: [App],
 })
-export class AppModule { }
+export class AppModule {}
