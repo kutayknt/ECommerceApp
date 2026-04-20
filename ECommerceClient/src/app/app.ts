@@ -12,7 +12,7 @@ declare var $: any; //Buraya göz at $ is not defined hatası var.
   standalone: false,
   styleUrl: './app.scss'
 })
-export class App{
+export class App implements OnInit{
   // constructor(private customToastr: CustomToastrService ) {
   //   this.customToastr.message("Sipariş", "Sipariş", {
   //     messageType: ToastrMessageType.Error,
@@ -32,8 +32,13 @@ export class App{
   //   })
   // }
   protected readonly title = signal('ECommerceClient');
-
+  ngOnInit(): void {
+    $.get("https://localhost:7196/api/product", data => {
+      console.log(data)
+    })
+  }
 }
+ 
 // export class App implements OnInit{
   // ngOnInit(): void {
   //   $(document).ready(() => {

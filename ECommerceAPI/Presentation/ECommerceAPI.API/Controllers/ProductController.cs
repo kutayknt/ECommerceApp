@@ -25,7 +25,7 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpGet]
-        public async Task Get()
+        public async Task<IActionResult> Get()
         {
             //Product p = await _productReadRepository.GetByIdAsync("7bdc2df4-8cc5-47af-a80e-b1fc8e9e94a9",tracking : false);
             //p.Name = "KutayNoTracking Product";
@@ -52,10 +52,13 @@ namespace ECommerceAPI.API.Controllers
             //    CustomerId = customerId,
             //});
 
-            var order = await _orderReadRepository.GetByIdAsync("019d67a3-85a7-7a40-91e4-3fa0de940525");
-            order.Adress = "Antalya,Lara";
+            //var order = await _orderReadRepository.GetByIdAsync("019d67a3-85a7-7a40-91e4-3fa0de940525");
+            //order.Adress = "Antalya,Lara";
 
-            await _orderWriteRepository.SaveAsync();
+            //await _orderWriteRepository.SaveAsync();
+
+            return Ok("Bu bir CORS politikası denemesidir.");
+
         }
     }
 }
