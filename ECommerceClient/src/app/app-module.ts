@@ -7,7 +7,7 @@ import { AdminModule } from './admin/admin-module';
 import { UiModule } from './ui/ui-module';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { Base } from './base/base';
+import {provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [App],
@@ -19,7 +19,12 @@ import { Base } from './base/base';
     ToastrModule.forRoot(),
     NgxSpinnerModule,
   ],
-  providers: [provideBrowserGlobalErrorListeners(), provideClientHydration(withEventReplay())],
+  providers: [
+    provideBrowserGlobalErrorListeners(),
+    provideClientHydration(withEventReplay()),
+    provideHttpClient(),
+    {provide: "baseUrl", useValue:"https://localhost:7196/api", multi:true}
+  ],
   bootstrap: [App],
 })
 export class AppModule {}

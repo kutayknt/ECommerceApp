@@ -33,9 +33,7 @@ export class App implements OnInit{
   // }
   protected readonly title = signal('ECommerceClient');
   ngOnInit(): void {
-    $.get("https://localhost:7196/api/product", data => {
-      console.log(data)
-    })
+   
   }
 }
  
